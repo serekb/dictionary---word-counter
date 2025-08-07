@@ -1,0 +1,101 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "Queue.h"
+
+void  QFDel( QFifo* q );
+
+//------------------------------------
+QFifo* QFCreate() 
+{
+  return (QFifo*)calloc( 1, sizeof( QFifo ) );
+
+}
+//------------------------------------
+int QFEmpty( QFifo* q )
+{
+  return !q || !( q->pHead );
+}
+//------------------------------------
+int QFEnqueue( QFifo* q, int x )
+{
+  if( !q )  return 0;
+  
+  QFItem* p = (QFItem*)calloc( 1, sizeof( QFItem ) );
+  if( !p )  return 0 ;
+  
+  p->Info  = x;
+  if( QFEmpty( q ) )   q->pHead = p;
+  else
+    q->pTail->pNext = p;
+  q->pTail = p;
+
+  return 1;
+}
+
+//-------------
+int QFDequeue( QFifo* q )
+{
+  if( QFEmpty( q ) )    return NULL;
+  
+  int Res = q->pHead->Info;
+  QFDel( q );
+  return Res;
+}
+
+//---------------------
+void QFClear( QFifo* q )
+{
+  if( !q ) // sprawdz aby byl komunikat gdy brak kolejki
+  { printf( "QClear: missing queue\n\n" );
+    return;
+  }
+  while( !QFEmpty( q ) )    QFDequeue( q );
+} 
+
+//---------------------
+void QFRemove( QFifo** q )
+{
+  if( !q || !*q )
+  { 
+    printf( "QRemove: missing queue\n\n" );
+    return;
+  }
+  QFClear( *q );  
+  free( *q );
+  *q = NULL;
+} 
+//------------------------------------
+void QFDel( QFifo* q )
+{
+
+//  if( !q )
+  //{ cerr << "QDel: missing queue\n\n";
+    //return;
+  //}
+  if( QFEmpty( q ) )
+  { printf( "Qdel: queue is empty\n\n" );
+    return;
+  }
+
+// to wykonywane wylacznie juz po sprawdzeniu 
+  QFItem* p = q->pHead;
+  q->pHead = p->pNext;  
+  free( p );
+  if( QFEmpty( q ) )
+    q->pTail = NULL;
+}
+
+void  QFPrint( QFifo* q )
+{
+  if( !q  )
+  { printf( "QFPrint: queue not exists\n\n" );
+    return;
+  }
+
+  QFItem* p = q->pHead;
+  while( p )
+  {
+    printf( "%d ", p->Info );
+    p = p->pNext;
+  }
+}

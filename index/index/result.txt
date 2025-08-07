@@ -1,0 +1,58 @@
+Slowo =                  aby; Licznik =  1; Linie: 48 
+Slowo =                 brak; Licznik =  1; Linie: 48 
+Slowo =                  byl; Licznik =  1; Linie: 48 
+Slowo =               calloc; Licznik =  2; Linie: 10 23 
+Slowo =                 cerr; Licznik =  1; Linie: 72 
+Slowo =                    d; Licznik =  1; Linie: 98 
+Slowo =                 else; Licznik =  1; Linie: 28 
+Slowo =                empty; Licznik =  1; Linie: 76 
+Slowo =               exists; Licznik =  1; Linie: 91 
+Slowo =                 free; Licznik =  2; Linie: 64 83 
+Slowo =                  gdy; Licznik =  1; Linie: 48 
+Slowo =                    h; Licznik =  3; Linie: 1 2 3 
+Slowo =                   if; Licznik = 10; Linie: 21 24 27 38 48 58 71 75 84 90 
+Slowo =              include; Licznik =  3; Linie: 1 2 3 
+Slowo =                 Info; Licznik =  3; Linie: 26 40 98 
+Slowo =                  int; Licznik =  5; Linie: 14 19 36 40 
+Slowo =                   is; Licznik =  1; Linie: 76 
+Slowo =                  juz; Licznik =  1; Linie: 80 
+Slowo =              kolejki; Licznik =  1; Linie: 48 
+Slowo =            komunikat; Licznik =  1; Linie: 48 
+Slowo =              missing; Licznik =  3; Linie: 49 60 72 
+Slowo =                    n; Licznik = 10; Linie: 49 60 72 76 91 
+Slowo =                  not; Licznik =  1; Linie: 91 
+Slowo =                 NULL; Licznik =  3; Linie: 38 65 85 
+Slowo =                    p; Licznik = 14; Linie: 23 24 26 27 29 30 81 82 83 95 96 98 99 
+Slowo =                pHead; Licznik =  6; Linie: 16 27 40 81 82 95 
+Slowo =                pNext; Licznik =  3; Linie: 29 82 99 
+Slowo =                   po; Licznik =  1; Linie: 80 
+Slowo =               printf; Licznik =  5; Linie: 49 60 76 91 98 
+Slowo =                pTail; Licznik =  3; Linie: 29 30 85 
+Slowo =                    q; Licznik = 34; Linie: 5 14 16 19 21 27 29 30 36 38 40 41 46 48 52 56 58 63 64 65 68 71 75 81 82 84 85 88 90 95 
+Slowo =               QClear; Licznik =  1; Linie: 49 
+Slowo =                 QDel; Licznik =  2; Linie: 72 76 
+Slowo =              QFClear; Licznik =  2; Linie: 46 63 
+Slowo =             QFCreate; Licznik =  1; Linie: 8 
+Slowo =                QFDel; Licznik =  3; Linie: 5 41 68 
+Slowo =            QFDequeue; Licznik =  2; Linie: 36 52 
+Slowo =              QFEmpty; Licznik =  6; Linie: 14 27 38 52 75 84 
+Slowo =            QFEnqueue; Licznik =  1; Linie: 19 
+Slowo =                QFifo; Licznik = 11; Linie: 5 8 10 14 19 36 46 56 68 88 
+Slowo =               QFItem; Licznik =  5; Linie: 23 81 95 
+Slowo =              QFPrint; Licznik =  2; Linie: 88 91 
+Slowo =             QFRemove; Licznik =  1; Linie: 56 
+Slowo =              QRemove; Licznik =  1; Linie: 60 
+Slowo =                Queue; Licznik =  6; Linie: 3 49 60 72 76 91 
+Slowo =                  Res; Licznik =  2; Linie: 40 42 
+Slowo =               return; Licznik = 12; Linie: 10 16 21 24 32 38 42 50 61 73 77 92 
+Slowo =               sizeof; Licznik =  2; Linie: 10 23 
+Slowo =              sprawdz; Licznik =  1; Linie: 48 
+Slowo =          sprawdzeniu; Licznik =  1; Linie: 80 
+Slowo =                stdio; Licznik =  1; Linie: 1 
+Slowo =               stdlib; Licznik =  1; Linie: 2 
+Slowo =                   to; Licznik =  1; Linie: 80 
+Slowo =                 void; Licznik =  5; Linie: 5 46 56 68 88 
+Slowo =                while; Licznik =  2; Linie: 52 96 
+Slowo =           wykonywane; Licznik =  1; Linie: 80 
+Slowo =            wylacznie; Licznik =  1; Linie: 80 
+Slowo =                    x; Licznik =  2; Linie: 19 26 
