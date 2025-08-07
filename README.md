@@ -1,0 +1,4 @@
+ - In this project we count how many times does a word come up in a document
+ - We use a tree and a FIFO queue to show in what lines does it appear and how many times does it appear overall
+ - we also check if the word can be an identificator
+ - dynamic space allocation
